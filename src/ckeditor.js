@@ -16,6 +16,7 @@ import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
@@ -75,7 +76,8 @@ ClassicEditor.builtinPlugins = [
 	Superscript,
 	Highlight,
 	HorizontalLine,
-	RemoveFormat
+	RemoveFormat,
+	ImageResize
 ];
 
 // Editor configuration.
